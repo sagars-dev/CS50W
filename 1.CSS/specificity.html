@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Specificity</title>
+    <style>
+        body {
+            font-size: 30px;
+            font-weight: bold;
+        }
+
+        /* ordering doesnt matter , css uses specificity to resolve conflicts */
+        div {
+            color: blue;
+        }
+
+        #foo {
+            color: red;
+        }
+
+        .foo-cls {
+            color: orange;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="foo" class="foo-cls" style="color:blueviolet">
+        Hello world
+    </div>
+</body>
+
+</html>
