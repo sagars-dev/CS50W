@@ -1,0 +1,58 @@
+<html>
+
+<head>
+    <title>viewport example</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            padding-top: 20px;
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+        #main {
+            text-align: center;
+        }
+
+        #main div:first-child {
+            margin-left: 50px;
+        }
+
+        .mybox {
+            display: inline;
+            background-color: green;
+            border: 1px solid black;
+            width: 300px;
+            height: 100px;
+            padding: 10px;
+            margin: 0 25px 0 0;
+        }
+        .mybox:hover {
+            background-color: orange;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>This is a webiste Main header </h1>
+    <div id="main">
+        <div class="mybox">
+            Content 1
+        </div>
+
+        <div class="mybox">
+            Content 2
+        </div>
+
+        <div class="mybox">
+            Content 3
+        </div>
+    </div>
+
+</body>
+
+</html>
