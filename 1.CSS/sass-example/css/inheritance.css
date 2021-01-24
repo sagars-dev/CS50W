@@ -1,0 +1,19 @@
+/* common properties are stored here */
+.success, .failure, .normal {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  border: 1px solid black;
+  padding: 20px;
+  margin: 20px; }
+
+.success {
+  background-color: green; }
+
+.failure {
+  background-color: red; }
+
+.normal {
+  background-color: #3f3fe6; }
+
+/*# sourceMappingURL=inheritance.css.map */
